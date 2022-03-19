@@ -72,7 +72,6 @@ We use Reddit, ogbn-products, Yelp and ogbn-papers100M for evaluating PipeGCN. A
 ### Core Training Options
 
 - `--dataset`: the dataset you want to use
-- `--model`: the GCN model (only GraphSAGE and GAT are supported at this moment)
 - `--lr`: learning rate
 - `--enable-pipeline`: whether run PipeGCN or regular partition-parallel GCN training
 - `--n-epochs`: the number of training epochs
