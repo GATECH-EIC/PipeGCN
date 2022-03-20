@@ -16,4 +16,5 @@ python main.py \
   --log-every 10 \
   --inductive \
   --enable-pipeline \
+  --fix-seed \
   --use-pp

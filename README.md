@@ -73,7 +73,10 @@ We use Reddit, ogbn-products, Yelp and ogbn-papers100M for evaluating PipeGCN. A
 
 - `--dataset`: the dataset you want to use
 - `--lr`: learning rate
-- `--enable-pipeline`: whether run PipeGCN or regular partition-parallel GCN training
+- `--enable-pipeline`: pipeline communication and computation
+- `--feat-corr`: apply smoothing correction to stale features
+- `--grad-corr`: apply smoothing correction to stale gradients
+- `--corr-momentum`: the decay rate of smoothing correction
 - `--n-epochs`: the number of training epochs
 - `--n-partitions`: the number of partitions
 - `--n-hidden`: the number of hidden units
@@ -97,7 +100,7 @@ Test Result | Accuracy 97.10%
 
 ### Run Customized Settings
 
-You may adjust `--n-partitions` or remove `--enable-pipeline` to reproduce the results of PipeGCN under other settings. To verify the exact throughput or time breakdown of PipeGCN, please add `--no-eval` argument to skip the evaluation step.
+You may add/remove `--enable-pipeline`, `--feat-corr` or `--grad-corr` to reproduce the results of PipeGCN under other settings. To verify the exact throughput or time breakdown of PipeGCN, please add `--no-eval` argument to skip the evaluation step.
 
 ### Run with Multiple Compute Nodes
 
