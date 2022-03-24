@@ -84,7 +84,7 @@ We use Reddit, ogbn-products, Yelp and ogbn-papers100M for evaluating PipeGCN. A
 - `--port`: the network port for communication
 - `--no-eval`: disable evaluation process
 
-### Run Example Scripts [Under Construction]
+### Run Example Scripts
 
 Simply running `scripts/reddit.sh`, `scripts/ogbn-products.sh` and `scripts/yelp.sh` can reproduce PipeGCN under the default settings. For example, after running `bash scripts/reddit.sh`, you will get the output like this
 
