@@ -2,7 +2,7 @@
 
 Cheng Wan (Rice University), Youjie Li (UIUC), Cameron R. Wolfe (Rice University), Anastasios Kyrillidis (Rice University), Nam Sung Kim (UIUC), Yingyan Lin (Rice University)
 
-Accepted at ICLR 2022 [[Paper](https://openreview.net/pdf?id=kSwqMH0zn1F) | Video | Slide | [Docker](https://hub.docker.com/r/cheng1016/pipegcn)]
+Accepted at ICLR 2022 [[Paper](https://openreview.net/pdf?id=kSwqMH0zn1F) | [Video](https://youtu.be/kmUZIEbyypI) | Slide | [Docker](https://hub.docker.com/r/cheng1016/pipegcn) | [Sibling](https://github.com/RICE-EIC/BNS-GCN)]
 
 
 ## Directory Structure

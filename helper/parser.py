@@ -3,7 +3,7 @@ import argparse
 
 def create_parser():
 
-    parser = argparse.ArgumentParser(description='GCN')
+    parser = argparse.ArgumentParser(description='PipeGCN')
 
     parser.add_argument("--dataset", type=str, default='reddit',
                         help="the input dataset")
