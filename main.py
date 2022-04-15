@@ -13,8 +13,6 @@ if __name__ == '__main__':
             warnings.warn('Please enable `--fix-seed` for multi-node training.')
         args.seed = random.randint(0, 1 << 31)
 
-    g, n_feat, n_class = load_data(args.dataset)
-
     if args.graph_name == '':
         if args.inductive:
             args.graph_name = '%s-%d-%s-%s-induc' % (args.dataset, args.n_partitions,
