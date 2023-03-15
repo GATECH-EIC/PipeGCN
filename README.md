@@ -110,8 +110,21 @@ If the compute nodes do not share storage, you should partition the graph in a s
 
 
 
+## Citation
+
+```
+@inproceedings{wan2022pipegcn,
+  title={{PipeGCN}: Efficient Full-Graph Training of Graph Convolutional Networks with Pipelined Feature Communication},
+  author={Wan, C and Li, Y and Wolfe, Cameron R and Kyrillidis, A and Kim, Nam S and Lin, Y},
+  booktitle={The Tenth International Conference on Learning Representations (ICLR 2022)},
+  year={2022}
+}
+```
+
+
+
 ## License
 
-Copyright (c) 2022 RICE-EIC. All rights reserved.
+Copyright (c) 2022 GaTech-EIC. All rights reserved.
 
 Licensed under the [MIT](https://github.com/RICE-EIC/PipeGCN/blob/master/LICENSE) license.
